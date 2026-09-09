@@ -1,0 +1,2 @@
+# ClouDiamond
+pip install cloudiamond
