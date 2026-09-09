@@ -28,9 +28,9 @@ classifiers = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/maru-m4ru-maru/CloudDiamond"
-Repository = "https://github.com/maru-m4ru-maru/CloudDiamond"
-Issues = "https://github.com/maru-m4ru-maru/CloudDiamond/issues"
+Homepage = "https://github.com/maru-m4ru-maru/ClouDiamond"
+Repository = "https://github.com/maru-m4ru-maru/ClouDiamond"
+Issues = "https://github.com/maru-m4ru-maru/ClouDiamond/issues"
 
 [tool.hatch.build.targets.wheel]
 packages = ["src/clouddiamond"]
