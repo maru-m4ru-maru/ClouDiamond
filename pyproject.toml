@@ -1,0 +1,36 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "cloudiamond"
+version = "0.0.1"
+description = "Security toolkit for Scratch and TurboWarp external integrations."
+readme = "README.md"
+requires-python = ">=3.9"
+license = { file = "LICENSE" }
+authors = [
+    { name = "maru-m4ru-maru" }
+]
+keywords = [
+    "scratch",
+    "turbowarp",
+    "security",
+    "cloud-variable",
+    "api"
+]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3 :: Only"
+]
+
+[project.urls]
+Homepage = "https://github.com/maru-m4ru-maru/CloudDiamond"
+Repository = "https://github.com/maru-m4ru-maru/CloudDiamond"
+Issues = "https://github.com/maru-m4ru-maru/CloudDiamond/issues"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/clouddiamond"]
