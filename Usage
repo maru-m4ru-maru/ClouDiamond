@@ -1,5 +1,4 @@
 from cloudiamond import ClouDiamond
 
-cloudiamond = ClouDiamond()
-
-print(cloudiamond.info())
+cd = ClouDiamond()
+print(cd.info())
