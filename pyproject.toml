@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "cloudiamond"
-version = "0.0.1"
+version = "0.0.2"
 description = "Security toolkit for Scratch and TurboWarp external integrations."
 readme = "README.md"
 requires-python = ">=3.9"
