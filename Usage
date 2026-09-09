@@ -1,0 +1,5 @@
+from clouddiamond import CloudDiamond
+
+cloudiamond = CloudDiamond()
+
+print(clouddiamond.info())
