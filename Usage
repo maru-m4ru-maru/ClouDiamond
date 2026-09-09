@@ -1,5 +1,5 @@
-from clouddiamond import CloudDiamond
+from cloudiamond import ClouDiamond
 
-cloudiamond = CloudDiamond()
+cloudiamond = ClouDiamond()
 
-print(clouddiamond.info())
+print(cloudiamond.info())
